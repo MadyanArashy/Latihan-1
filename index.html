@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kelly Sikema</title>
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Bootstrap CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- Flickity CSS -->
+	<link rel="stylesheet" href="flickity.css">
+</head>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+		<div class="container">
+			<a class="navbar-brand fw-bold fs-4" href="#">Kelly Sikema</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav ms-auto fs-5">
+					<a class="nav-link active" aria-current="page" href="#" style="color:#fb6a25">Home</a>
+					<a class="nav-link" href="#portfolio">Portfolio</a>
+					<a class="nav-link" href="#skills">Skills</a>
+					<a class="nav-link" href="#timeline">Timeline</a>
+					<a class="nav-link" href="#news">News</a>
+					<a class="nav-link" href="#contact">Contact</a>
+					<a href="login.html" class="nav-link">Login</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Content -->
+	<!-- Page 1 -->
+	<section class="container mt-5 pt-5">
+		<div class="row">
+			<div class="col-12 col-md-7 mx-auto">
+				<h2 class="display-6 fw-semibold orange-text">Kelly Sikema</h2>
+				<h1 class="display-5 blacked mb-5">CREATING DESIGN BASE IN INDONESIA</h1>
+				<p class="fs-5 mb-5">Web Development. <br> Mobile Development. <br> Graphic Designer.</p>
+				<div class="d-flex gap-3">
+					<div class="d-flex gap-3">
+						<h2 class="fw-bold fs-1">10+</h2>
+						<p class="fs-5 text-secondary">Years of <br> Experiece</p>
+					</div>
+					<div class="d-flex gap-3">
+						<h2 class="fw-bold fs-1">30K</h2>
+						<p class="fs-5 text-secondary">Happy <br> Customers</p>
+					</div>
+				</div>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary p-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #fb6a25;border:none;">
+						Description
+					</button>
+					
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Description</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+							Name: Kelly Sikema <br>
+							Age: 29
+							</div>
+							<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Social Media</button>
+							</div>
+						</div>
+						</div>
+					</div>
+				
+			</div>
+			<div class="col-12 col-md-5 mx-auto">
+				<img src="images/Kelly.jpeg" alt="Kelly" style="object-fit: cover; max-width: 100%;">
+			</div>
+		</div>
+	</section>
+
+	<!-- Divider -->
+	<div class="divider"></div>
+	<!-- Page 2 -->
+	<section class="container" id="portfolio">
+		<p class="fs-5 fw-bold orange-text">Portfolio</p>
+		<h3 class="display-6 blacked">SELECTED WORKS</h3>
+		<!-- Carousel -->
+		<div class="js-flickity gx-2 mb-5 mt-5" data-flickity-options='{ "wrapAround": false, "pageDots": false }'>
+
+			<div class="card">
+			<img src="images/portfolio-1.png" style="object-fit: contain; height: 300px;">
+				<div class="card-body">
+					<h3>Podomoro Timer App UI</h3>
+					<a class="orange-text" href="#">Portfolio Details</a>
+				</div>
+			</div>
+			<div class="card">
+			<img src="images/portfolio-2.png" style="object-fit: contain; height: 300px;">
+				<div class="card-body">
+					<h3>Ride Share App UI</h3>
+					<a class="orange-text" href="#">Portfolio Details</a>
+				</div>
+			</div>
+			<div class="card">
+			<img src="images/portfolio-3.png" style="object-fit: contain; height: 300px;">
+				<div class="card-body">
+					<h3>Online Course App UI</h3>
+					<a class="orange-text" href="#">Portfolio Details</a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="images/portfolio-4.png" style="object-fit: contain; height: 300px;">
+					<div class="card-body">
+						<h3>Housing property App UI</h3>
+						<a class="orange-text" href="#">Portfolio Details</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="images/portfolio-5.png" style="object-fit: contain; height: 300px;">
+						<div class="card-body">
+							<h3>Restaurant Website UI</h3>
+							<a class="orange-text" href="#">Portfolio Details</a>
+						</div>
+					</div>
+				<div class="card">
+					<img src="images/portfolio-6.png" style="object-fit: contain; height: 300px;">
+						<div class="card-body">
+							<h3>Real Estate App UI</h3>
+							<a class="orange-text" href="#">Portfolio Details</a>
+						</div>
+					</div>
+		</div>
+	</section>
+
+	<!-- Divider -->
+	<div class="divider"></div>
+
+	<!-- Page 3 -->
+	<section class="container-fluid py-5 bg-black" id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-7">
+					<p class="fs-5 fw-bold orange-text">Skill</p>
+					<h3 class="display-6 blacked text-white mb-5">PROGRAMMING SKILLS</h3>
+					<!-- Progress Bars -->
+					<div class="row">
+						<div class="col-12 col-md-11">
+							<div class="gy-4">
+								<!-- HTML Skill -->
+								<div class="d-flex justify-content-between text-white fs-5 fw-bold"><span>HTML</span><span>100%</span></div>
+
+								<div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 100%; background-color:#fb6a25 !important"></div>
+								</div>
+								<!-- CSS Skill -->
+								<div class="d-flex justify-content-between text-white fs-5 fw-bold"><span>CSS</span><span>50%</span></div>
+
+								<div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 50%; background-color:#fb6a25 !important"></div>
+								</div>
+								<!-- Bootstrap Skill -->
+								<div class="d-flex justify-content-between text-white fs-5 fw-bold"><span>Bootstrap</span><span>70%</span></div>
+
+								<div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar" style="width: 70%; background-color:#fb6a25 !important"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-5">
+					<img src="images/Kelly.jpeg" alt="Kelly" style="object-fit: cover; max-width: 100%;">	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Divider -->
+	<div class="divider"></div>
+
+	<!-- Page 4 -->
+	<section class="container" id="timeline">
+		<p class="fs-5 fw-bold orange-text">Timeline</p>
+					<h3 class="display-6 blacked text-black mb-5">WORKING PERIOD</h3>
+		<table class="table">
+				<tr>
+					<td>January 2024 - Today </th>
+					<td>Head programmer & co-founder</th>
+					<td>Shopee, Jakarta</th>
+				</tr>
+			<tbody>
+				<tr>
+					<td>January 2023 - December 2023/td>
+					<td>Creative Director & Senior Programmer</td>
+					<td>Lazada, Jakarta</td>
+				</tr>
+				<tr>
+					<td>September 2018 - January 2021</td>
+					<td>Junior Programmer</td>
+					<td>Majoo, Jakarta</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<!-- Divider -->
+	<div class="divider"></div>
+
+	<!-- Page 5 -->
+	<section class="container" id="news">
+		<p class="fs-5 fw-bold orange-text">Portfolio</p>
+		<h3 class="display-6 blacked">SELECTED WORKS</h3>
+		<!-- Carousel -->
+		<div class="js-flickity gx-2 mb-5 mt-5" data-flickity-options='{ "wrapAround": false, "pageDots": false }'>
+
+			<div class="card" style="width:18rem">
+			<img src="images/news-1.png" style="object-fit: contain; height: 22rem;">
+				<div class="card-body">
+					<h4 class="fs-6">Bagaimana membuat web portofolio</h4 class="fs-6">
+					<h4 class="fs-6 text-secondary">Bagaimana membuat web portofolio</h4 class="fs-6">
+					<a class="orange-text" href="#">Portfolio Details</a>
+				</div>
+			</div>
+			<div class="card" style="width:18rem">
+			<img src="images/news-2.png" style="object-fit: contain; height: 22rem;">
+				<div class="card-body">
+					<h4 class="fs-6">Bagaimana membuat web portofolio</h4 class="fs-6">
+					<h4 class="fs-6 text-secondary">Bagaimana membuat web portofolio</h4>
+					<a class="orange-text" href="#">Portfolio Details</a>
+				</div>
+			</div>
+			<div class="card" style="width:18rem">
+			<img src="images/news-3.png" style="object-fit: contain; height: 22rem;">
+				<div class="card-body">
+					<h4 class="fs-6">Bagaimana membuat web portofolio</h4 class="fs-6">
+					<h4 class="fs-6 text-secondary">Bagaimana membuat web portofolio</h4>
+					<a class="orange-text" href="#">Portfolio Details</a>
+				</div>
+			</div>
+			<div class="card" style="width:18rem">
+				<img src="images/news-4.png" style="object-fit: contain; height: 22rem;">
+					<div class="card-body">
+						<h4 class="fs-6">Bagaimana membuat web portofolio</h4 class="fs-6">
+						<h4 class="fs-6 text-secondary">Bagaimana membuat web portofolio</h4>
+						<a class="orange-text" href="#">Portfolio Details</a>
+					</div>
+				</div>
+				<div class="card" style="width:18rem">
+					<img src="images/news-5.png" style="object-fit: contain; height: 22rem;">
+						<div class="card-body">
+							<h4 class="fs-6">Bagaimana membuat web portofolio</h4 class="fs-6">
+							<h4 class="fs-6 text-secondary">Bagaimana membuat web portofolio</h4>
+							<a class="orange-text" href="#">Portfolio Details</a>
+						</div>
+					</div>
+		</div>
+	</section>
+
+	<!-- Divider -->
+	<div class="divider"></div>
+
+	<!-- Page 6 -->
+	<section class="container mb-5" id="contact">
+		<p class="fs-5 fw-bold orange-text">Contact</p>
+		<h3 class="display-6 blacked mb-0 mb-md-5">GET IN TOUCH</h3>
+		<div class="row">
+			<div class="col-12 col-md-7">
+				<p class="text-secondary">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum, quae ratione officia, enim odit reiciendis explicabo modi sequi vel ut labore aut iste eum porro facilis voluptatum at sapiente!
+				</p>
+				<p>
+				Jl. Poras no. 7 Sindang Barang Loji, Kota Bogor, Jawa Barat
+				</p>
+				<p>
+				+62 123 4567 8910
+				</p>
+				<p>
+				kellysikkema@hotmail.com
+				</p>
+			</div>
+			<div class="col-12 col-md-5">
+				<input type="text" class="form-control mb-3" placeholder="nama" aria-label="nama" aria-describedby="basic-addon1">
+				<input type="text" class="form-control mb-3" placeholder="email" aria-label="email" aria-describedby="basic-addon1">
+				<input type="text" class="form-control mb-3" placeholder="alamat" aria-label="alamat" aria-describedby="basic-addon1">
+				<button type="button" class="btn text-white mx-auto" style="background-color:#fb6a25; border:none; min-width:250px;">Submit</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Divider -->
+	<div class="divider"></div>
+
+	<!-- Page 7 -->
+	<section class="container mb-5">
+		<p class="fs-5 fw-bold orange-text">Clients</p>
+		<h3 class="display-6 blacked bg-light bg-gradient">TESTIMONIES</h3>
+		<div id="carouselExample" class="carousel slide">
+			<div id="carouselExample" class="carousel slide">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<div class="d-flex flex-column bg-secondary bg-gradient">
+						<img src="images/Kelly.jpeg" alt="avatar" class="rounded-circle mx-auto border border-5 mb-3" style="width:10rem;">
+						<p class="text-center text-white mx-auto fw-bold fs-4">John Doe</p>
+						<p class="text-center text-white mx-auto" style="width:25rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque harum cupiditate nostrum similique tempora accusamus dolorem assumenda, iste ea totam! Ex quod, obcaecati libero adipisci expedita consequuntur error illum commodi.</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="d-flex flex-column bg-secondary bg-gradient">
+						<img src="images/Kelly.jpeg" alt="avatar" class="rounded-circle mx-auto border border-5 mb-3" style="width:10rem;">
+						<p class="text-center text-white mx-auto fw-bold fs-4">John Doe</p>
+						<p class="text-center text-white mx-auto" style="width:25rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque harum cupiditate nostrum similique tempora accusamus dolorem assumenda, iste ea totam! Ex quod, obcaecati libero adipisci expedita consequuntur error illum commodi.</p>
+				  </div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="d-flex flex-column bg-secondary bg-gradient">
+						<img src="images/Kelly.jpeg" alt="avatar" class="rounded-circle mx-auto border border-5 mb-3" style="width:10rem;">
+						<p class="text-center text-white mx-auto fw-bold fs-4">John Doe</p>
+						<p class="text-center text-white mx-auto" style="width:25rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque harum cupiditate nostrum similique tempora accusamus dolorem assumenda, iste ea totam! Ex quod, obcaecati libero adipisci expedita consequuntur error illum commodi.</p>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+	</section>
+	<!-- Footer -->
+	<div class="container-fluid bg-black">
+	<div class="mx-auto p-2 text-white text-center">
+		Copyright &#169; 2024 Madyan Arashy
+	</div>
+	</div>
+
+  <!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<!-- FLickity JS -->
+	<script src="flickity.js"></script>
+</body>
+</html>

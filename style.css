@@ -1,0 +1,48 @@
+:root {
+    --orange:#fb6a25;
+}
+
+/* * {
+    border: red 1px dashed;
+} */
+body {
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5vw;
+}
+button:hover {
+    opacity:0.7
+}
+a {
+    text-decoration: none !important;
+}
+.orange-text {
+    color:var(--orange);
+}
+.blacked {
+    font-weight: 800 !important;
+}
+.orange-bg {
+    background-color: var(--orange);
+}
+.divider {
+    min-height: 10vw;
+}
+.courier {
+    font-family:'Courier Prime', monospace !important;
+}
+.poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+.pointed {
+    cursor: pointer !important;
+}
+/* .flickity-slide {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    
+} */
